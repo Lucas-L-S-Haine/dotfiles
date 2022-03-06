@@ -12,14 +12,8 @@ Plug 'garbas/vim-snipmate'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'othree/html5.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'sheerun/vim-json'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'shmup/vim-sql-syntax'
-Plug 'ekalinin/dockerfile.vim'
 Plug 'diepm/vim-rest-console'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 tnoremap <Esc> <C-\><C-n>
@@ -76,7 +70,7 @@ set whichwrap+=<,>,[,]
 
 set clipboard+=unnamedplus
 set termguicolors
-set colorcolumn=80
+set colorcolumn=100
 
 nnoremap <PageUp> :hide bprevious <cr>
 nnoremap <PageDown> :hide bnext <cr>
