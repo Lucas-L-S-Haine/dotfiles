@@ -18,7 +18,7 @@ call plug#end()
 
 tnoremap <Esc> <C-\><C-n>
 nnoremap <F4> :nohlsearch<cr>
-nnoremap <F5> :!node %
+nnoremap <F5> :!ts-node %<cr>
 nnoremap <F9> :e ./.rest<cr>:set ft=rest<cr>
 tnoremap <esc> <C-\><C-n>
 let g:vrc_horizontal_split=1
