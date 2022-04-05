@@ -17,11 +17,18 @@ Plug 'diepm/vim-rest-console'
 call plug#end()
 
 tnoremap <Esc> <C-\><C-n>
+nnoremap <F2> :NERDTreeToggle <cr>
+nnoremap <F3> :set relativenumber! <cr>
 nnoremap <F4> :nohlsearch<cr>
-nnoremap <F5> :!ts-node %<cr>
-nnoremap <F9> :e ./.rest<cr>:set ft=rest<cr>
-tnoremap <esc> <C-\><C-n>
+nnoremap <F5> :w<cr> :!ts-node %<cr>
+nnoremap <F6> :w<cr> :!mysql --table < %<cr>
+" shift + F6
+nnoremap <F18> :w<cr> :!mongosh < %<cr>
+nnoremap <F8> :e term://pulsemixer<cr>
+nnoremap <F9> :e ~/.rest<cr>
 let g:vrc_horizontal_split=1
+
+filetype on
 
 let g:snipMate = { 'snippet_version' : 1 }
 
@@ -77,7 +84,6 @@ nnoremap <PageDown> :hide bnext <cr>
 nnoremap <Home> :hide bfirst <cr>
 nnoremap <End> :hide blast <cr>
 nnoremap <Del> :bdelete! <cr>
-nnoremap <F2> :NERDTreeToggle <cr>
 "nnoremap <Insert> :hide enew <cr>
 
 "Remap the j, k, 0 and $ keys to gj, gk, g0 and g$ in normal mode
