@@ -1,0 +1,2 @@
+# https://github.com/randy3k/radian
+options(radian.insert_new_line = FALSE)
