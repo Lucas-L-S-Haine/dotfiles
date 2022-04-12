@@ -77,7 +77,7 @@ set whichwrap+=<,>,[,]
 
 set clipboard+=unnamedplus
 set termguicolors
-set colorcolumn=100
+set colorcolumn=80
 
 nnoremap <PageUp> :hide bprevious <cr>
 nnoremap <PageDown> :hide bnext <cr>
