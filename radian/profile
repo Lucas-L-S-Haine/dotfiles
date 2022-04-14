@@ -1,5 +1,5 @@
 # https://github.com/randy3k/radian
-options(radian.insert_new_line = FALSE)
-nvim <- function(...) eval(
-  call("system2", command = "nvim", args = unlist(list(...)))
-)
+local({
+  options(radian.insert_new_line = FALSE)
+  source("~/.config/radian/functions")
+})
