@@ -11,9 +11,7 @@ Plug 'garbas/vim-snipmate'
 "Plug 'raphamorim/lucario'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'othree/html5.vim'
 Plug 'diepm/vim-rest-console'
-Plug 'kchmck/vim-coffee-script'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
