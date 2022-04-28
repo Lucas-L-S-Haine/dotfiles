@@ -1,3 +1,4 @@
+let g:polyglot_disabled = ['sensible']
 call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
@@ -12,6 +13,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'diepm/vim-rest-console'
+Plug 'sheerun/vim-polyglot'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
