@@ -2,6 +2,7 @@ let g:polyglot_disabled = ['sensible']
 call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'w0rp/ale'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
