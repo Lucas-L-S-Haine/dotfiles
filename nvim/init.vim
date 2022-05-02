@@ -18,6 +18,8 @@ Plug 'sheerun/vim-polyglot'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
 tnoremap <Esc> <C-\><C-n>
 nnoremap <F2> :NERDTreeToggle <cr>
 nnoremap <F3> :set relativenumber! <cr>
