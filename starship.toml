@@ -115,7 +115,7 @@ disabled = true
 disabled = true
 
 [python]
-disabled = true
+disabled = false
 
 [red]
 disabled = true
