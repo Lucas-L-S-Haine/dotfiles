@@ -32,6 +32,10 @@ disabled = true
 disabled = false
 format = '[(\($virtualenv\) )]($style)'
 
+[git_branch]
+disabled = false
+format = "[$symbol$branch]($style) "
+
 # for more information, visit: techviewleo.com/install-starship-shell-prompt-bash-zsh-fish/
 
 [aws]
