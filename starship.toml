@@ -116,6 +116,7 @@ disabled = true
 
 [python]
 disabled = false
+format = '[(\($virtualenv\) )]($style)'
 
 [red]
 disabled = true
